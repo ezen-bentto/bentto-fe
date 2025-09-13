@@ -1,0 +1,8 @@
+[submodule "shared/headless"]
+	path = shared/headless
+	url = https://github.com/ezen-bentto/bentto-headless.git
+	branch = main
+[submodule "shared/ui"]
+	path = shared/ui
+	url = https://github.com/ezen-bentto/bentto-ui.git
+	branch = main
