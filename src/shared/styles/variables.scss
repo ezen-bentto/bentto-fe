@@ -1,0 +1,37 @@
+/* =========================================
+   variables.scss
+   - Figma 시안 기반 "값"만 보관하는 SCSS 변수 원본
+   - Light/Dark 팔레트 + 간격/라운드/섀도우/z-index 스케일
+   - 여기 값만 바꾸면 전체 테마가 바뀜 (theme.scss가 매핑)
+========================================= */
+
+/* Grayscale */
+$White1: #ffffff;
+$Black1: #161616;
+$Gray1: #474747;
+$Gray2: #7b7b7b;
+$Gray3: #bdbdbd;
+$Gray4: #d5d5d5;
+$Gray5: #e2e2e2;
+$Gray6: #f0f0f0;
+$Gray7: #f8f8f8;
+
+/* Brand / Accent */
+$Blue1: #2b4eff;
+$Blue2: #e9edff;
+
+/* Status */
+$Red1: #ef3636;
+$Red2: #ffedeb;
+$Green1: #8fde6b;
+$Green2: #e8fdde;
+
+/* Primary (Brand Orange) */
+$Primary1: #e88731;
+$Primary2: #fff7ef;
+$Primary3: #ffe8d2;
+$Primary4: #ffd8b2;
+$Primary5: #ffc489;
+
+$Gradient1: #ffb143;
+$Gradient2: #ff7a58;

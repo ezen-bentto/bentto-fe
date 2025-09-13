@@ -1,0 +1,21 @@
+// styles/global.scss
+
+// 1. Reset (초기화)
+@use './reset';
+
+// 2. Fonts (웹폰트 선언)
+@use './fonts';
+
+// 3. Theme (테마, 색상)
+@use './theme';
+
+// 4. Global base style
+html,
+body,
+textarea,
+button {
+  font-family: 'Pretendard';
+  box-sizing: border-box;
+  background-color: var(--White1);
+  color: var(--Black1);
+}

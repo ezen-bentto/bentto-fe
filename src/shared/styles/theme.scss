@@ -1,0 +1,72 @@
+@use './variables' as *;
+/* ---------- 1) 라이트 모드 ---------- */
+:root {
+  /* Grayscale */
+  --White1: #{$White1};
+  --Black1: #{$Black1};
+  --Gray1: #{$Gray1};
+  --Gray2: #{$Gray2};
+  --Gray3: #{$Gray3};
+  --Gray4: #{$Gray4};
+  --Gray5: #{$Gray5};
+  --Gray6: #{$Gray6};
+  --Gray7: #{$Gray7};
+
+  /* Brand / Accent */
+  --Blue1: #{$Blue1};
+  --Blue2: #{$Blue2};
+
+  /* Status */
+  --Red1: #{$Red1};
+  --Red2: #{$Red2};
+  --Green1: #{$Green1};
+  --Green2: #{$Green2};
+
+  /* Primary (Brand Orange) */
+  --Primary1: #{$Primary1};
+  --Primary2: #{$Primary2};
+  --Primary3: #{$Primary3};
+  --Primary4: #{$Primary4};
+  --Primary5: #{$Primary5};
+
+  --Gradient1: #{$Gradient1};
+  --Gradient2: #{$Gradient2};
+
+  color-scheme: light;
+}
+
+/* ---------- 2) 다크 모드 ---------- */
+/* 라이트 토큰 → 다크 환경에 맞게 재배치 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Grayscale (Dark) */
+    --White1: #{$Black1}; /* 밝은 영역 → 어두운 색으로 */
+    --Black1: #{$White1}; /* 반전 */
+    --Gray1: #{$Gray7};
+    --Gray2: #{$Gray6};
+    --Gray3: #{$Gray5};
+    --Gray4: #{$Gray4};
+    --Gray5: #{$Gray3};
+    --Gray6: #{$Gray2};
+    --Gray7: #{$Gray1};
+
+    /* Brand / Accent — 동일 유지 */
+    --Blue1: #{$Blue1};
+    --Blue2: #{$Blue2};
+
+    /* Status — 동일 유지 */
+    --Red1: #{$Red1};
+    --Red2: #{$Red2};
+    --Green1: #{$Green1};
+    --Green2: #{$Green2};
+
+    /* Primary (Brand Orange) — 동일 유지 */
+    --Primary1: #{$Primary1};
+    --Primary2: #{$Primary2};
+    --Primary3: #{$Primary3};
+    --Primary4: #{$Primary4};
+    --Primary5: #{$Primary5};
+
+    color-scheme: dark;
+  }
+}
