@@ -1,1 +1,1 @@
-export type Justify = 'start' | 'end' | 'center' | 'space-between' | 'space-around' | 'space-evenly';
+export type CSSJustify = 'start' | 'end' | 'center' | 'space-between' | 'space-around' | 'space-evenly';

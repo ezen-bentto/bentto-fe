@@ -1,1 +1,1 @@
-export type Align = 'stretch' | 'center' | 'start' | 'end' | 'baseline';
+export type CSSAlign = 'stretch' | 'center' | 'start' | 'end' | 'baseline';

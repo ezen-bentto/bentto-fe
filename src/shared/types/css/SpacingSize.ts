@@ -1,4 +1,4 @@
-export type PaddingSize =
+export type SpacingSize =
   | number
   | {
       x?: number;
