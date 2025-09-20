@@ -50,10 +50,7 @@ export default tseslint.config([
 
       /* --- 미사용 import/변수 정리 --- */
       'unused-imports/no-unused-imports': 'warn',
-      '@typescript-eslint/no-unused-vars': [
-        'warn',
-        { argsIgnorePattern: '^_', varsIgnorePattern: '^_' },
-      ],
+      '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }],
 
       /* 개발 편의 (Vite Fast Refresh 안정성) */
       'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
